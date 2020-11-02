@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import Header from "./Header"
+import Tindercards from "./TinderCards";
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
     //BEM class naming convention
     <div className="app">      
        {/* Header */}
-       <Header />
+      <Header />
        {/* Tinder Cards*/}
+       <Tindercards />
        {/* Swipe buttons*/}
       
     </div>

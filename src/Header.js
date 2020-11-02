@@ -4,6 +4,7 @@ import PersonIcon from '@material-ui/icons/Person';
 import IconButton from '@material-ui/core/IconButton';
 import image from "./image/tinder-logo.jpg";
 import ForumIcon from '@material-ui/icons/Forum';
+import Tindercards from './TinderCards';
 
 
 export default function Header() {
@@ -20,7 +21,7 @@ export default function Header() {
             />
             <IconButton>
                 <ForumIcon fontSize="large" className="header_icon" />
-            </IconButton>
+            </IconButton>           
         </div>
     )
 }

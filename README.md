@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+dependanies:
+-Material UI-core: npm install @material-ui/core
+-material UI-icon: npm install @material-ui/icons
+-tindercards: npm i react-tinder-card
+Additional imports
+-for icon button effect: import IconButton from '@material-ui/core/IconButton';
+-for forum icon: import ForumIcon from '@material-ui/icons/Forum';
+-For tinderCard: import TinderCard from 'react-tinder-card'
+
