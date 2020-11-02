@@ -1,0 +1,17 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* keep the header on the top no matter how big the page is */
+    z-index:100;
+    border-bottom: 1px solid #f9f9f9;
+}
+.header_logo{
+    object-fit: contain;
+    height: 70px;
+    padding:20px;
+}
+.header_icon{
+    padding:20px;
+}
